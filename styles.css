@@ -10,13 +10,30 @@
     background-color: #1F2937;
     color: #e5e7eb;
     font-size: 18px;
-    margin: 32px;
-    padding: 64px;
+    margin: 230px;
+    margin-top: 0;
+    padding: 128px;
+    padding-top: 0;
 }
 
 .header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    margin-bottom: 100px;
+}
+
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 
