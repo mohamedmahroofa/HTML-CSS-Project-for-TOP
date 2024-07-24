@@ -116,14 +116,32 @@ a {
     height: 150px;
     border: 6px solid #3882F6;
     border-radius: 8px;
-
 }
 
 .body .figure figcaption {
     flex-wrap: wrap;
-
 }
 
+/* The Third Part */
+.quote {
+    background-color: #e5e7eb;
+    margin: 250px;
+    margin-top: 100px;
+    padding: 100px;
+    padding-left: 250px;
+    padding-right: 300px;
+}
 
+.quote .blackquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
 
-
+.quote .author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+}
