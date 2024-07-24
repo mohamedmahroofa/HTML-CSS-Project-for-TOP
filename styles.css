@@ -127,6 +127,7 @@ a {
     background-color: #e5e7eb;
     margin: 250px;
     margin-top: 100px;
+    margin-bottom: 90px;
     padding: 100px;
     padding-left: 250px;
     padding-right: 300px;
@@ -144,4 +145,37 @@ a {
     color: #1F2937;
     font-weight: bold;
     text-align: right;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    background-color: #3882F6;
+    margin-left: 500px ;
+    margin-right: 500px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 150px;
+    border-radius: 10px;
+    border: none;
+}
+
+.action .words {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    color: #e5e7eb;   
+}
+
+.action button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 3px solid #e5e7eb;
 }
